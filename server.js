@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const ShortUrl = require('./models/shortUrl')
+const ShortUrl = require('./models/ShortUrl')
 const methodOverride = require('method-override');
 const qrcode = require("qrcode");
 const path = require('path')
